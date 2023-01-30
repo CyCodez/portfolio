@@ -1,37 +1,15 @@
-// import { motion, useAnimation } from "framer-motion";
-// import { useInView } from "react-intersection-observer";
-// import { useEffect } from "react";
 import rout from "./icons/router-app.png";
 import cal from "./icons/react-calculator.png";
 import auth from "./icons/auth-app.png";
 
 function Project() {
-  // const control = useAnimation();
-  // const [ref, inView] = useInView();
-  // const boxVariant = {
-  //   visible: { opacity: 1, scale: 1 },
-  //   hidden: { opacity: 0, scale: 0 },
-  // };
-  // useEffect(() => {
-  //   if (inView) {
-  //     control.start("visible");
-  //   } else {
-  //     control.start("hidden");
-  //   }
-  // }, [control, inView]);
   return (
-    <div
-    // ref={ref}
-    // variants={boxVariant}
-    // initial="hidden"
-    // animate={control}
-    // className="box"
-    >
+    <div>
       <h1 style={{ marginTop: "25%" }} id="project">
         Some Of My Project
       </h1>
       <div class="flex flex3">
-        <div class="flex-project">
+        <div class="flex-project2">
           <h3>Router App</h3>
           <p>
             This is an Application that fetches profiles of random individual
@@ -45,22 +23,19 @@ function Project() {
           <a href="https://replit.com/@cyruz/Routerassignment">
             <button>view repo</button>
           </a>
-          <button>live site</button>
-        </div>
-
-        <div class="flex-project">
           <a href="https://Routerassignment.cyruz.repl.co">
             {" "}
-            <img src={rout} width="90%" height="70%" />
+            <button>live site</button>
           </a>
+        </div>
+
+        <div class="flex-project2">
+          <img src={rout} width="90%" height="70%" alt="" />
         </div>
       </div>
       <div class="flex flex3">
         <div class="flex-project2">
-          <a href="https://Routerassignment.cyruz.repl.co">
-            {" "}
-            <img src={auth} width="60%" height="80%" />
-          </a>
+          <img src={auth} width="60%" height="80%" alt="" />
         </div>
 
         <div class="flex-project2">
@@ -74,24 +49,30 @@ function Project() {
             user stored
           </p>
           <p>This project is hosted by netlify</p>
-          <button>view repo</button>
-          <button>live site</button>
+          <a href="https://github.com/CyCodez/Authentication_App">
+            <button>view repo</button>
+          </a>
+          <a href="https://bank-recharge.netlify.app/">
+            {" "}
+            <button>live site</button>
+          </a>
         </div>
       </div>
       <div class="flex flex3">
         <div class="flex-project2">
-          <a href="https://Routerassignment.cyruz.repl.co">
-            {" "}
-            <img src={cal} width="80%" height="80%" />
-          </a>
+          <img src={cal} alt="" width="80%" height="80%" />
         </div>
 
         <div class="flex-project2">
-          <h3>Authentication App</h3>
+          <h3>Calculator App</h3>
           <p>A simple calculator that Performs Basic Mathematical operation.</p>
           <p>This project is hosted by replit</p>
-          <button>view repo</button>
-          <button>live site</button>
+          <a href="https://replit.com/@cyruz/react-calculator#src/App.css">
+            <button>view repo</button>
+          </a>
+          <a href="https://react-calculator.cyruz.repl.co">
+            <button>live site</button>
+          </a>
         </div>
       </div>
     </div>
