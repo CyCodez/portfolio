@@ -48,6 +48,9 @@ span {
 #about {
   margin-left: 40px;
 }
+.somps {
+  margin-top: 25%;
+}
 .mailButton {
   padding: 15px;
   font-weight: bolder;
@@ -109,7 +112,7 @@ span {
   line-height: 1;
 }
 .flex-project2 {
-  margin-top: 50px;
+  margin-top: -80px;
   margin-bottom: 80px;
   text-align: left;
   font-size: 18px;
@@ -117,6 +120,39 @@ span {
 }
 .flex-project4 {
   margin-top: 10px;
+}
+@media only screen and (max-device-width: 415px) {
+  .flex {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 130px;
+    color: #001021;
+    font-weight: bold;
+  }
+  .topnav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+    background-color: #001029;
+    font-size: 25%;
+    width: 100%;
+  }
+  .somps {
+    margin-top: 45%;
+  }
+  .flex-project {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: -15px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1;
+  }
 }
 button {
   padding: 10px;
@@ -142,6 +178,7 @@ button:hover {
 }
 .my-image {
   border-radius: 50%;
+  width: 90%;
 }
 .grid-container {
   display: grid;
@@ -181,15 +218,3 @@ button:hover {
   line-height: 75px;
   justify-content: center;
 }
-
-/* @media only screen and (max-device-width: 380px) {
-  .flex {
-    display: flex;
-    flex-direction: row;
-    font-size: 15px;
-    text-align: center;
-    margin-top: 130px;
-    color: #001021;
-    font-weight: bold;
-  }
-} */

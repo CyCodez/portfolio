@@ -5,7 +5,7 @@ import auth from "./icons/auth-app.png";
 function Project() {
   return (
     <div>
-      <h1 style={{ marginTop: "25%" }} id="project">
+      <h1 id="project" className="somps">
         Some Of My Project
       </h1>
       <div class="flex flex3">
