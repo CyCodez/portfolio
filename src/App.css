@@ -121,7 +121,7 @@ span {
 .flex-project4 {
   margin-top: 10px;
 }
-@media only screen and (max-device-width: 415px) {
+@media only screen and (max-device-width: 350px) {
   .flex {
     display: flex;
     flex-direction: column;
