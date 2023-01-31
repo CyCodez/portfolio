@@ -22,7 +22,7 @@ function Contact() {
           </h2>
           <p>Feel free to reach out to me</p>
           <p>Either to get acquinted, collaborate on Project or for work</p>
-          <div>
+          <div className="socialM">
             <a href="https://twitter.com/uwaoma_cyrus?t=OZV8vv4NK3o8cEfTK7HUEw&s=09">
               {" "}
               <img
@@ -99,7 +99,7 @@ function Contact() {
           </p>
           <p>
             <a href="mailto:uwaomacyruz@gmail.com">
-              <button>send</button>
+              <button className="sendBtn">send</button>
             </a>
           </p>
         </div>
