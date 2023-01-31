@@ -134,22 +134,22 @@ span {
   }
   .topnav {
     display: flex;
-    flex-direction: column;
-    position: fixed;
+    flex-direction: row;
+    /* position: fixed; */
     right: 100px;
     top: 0;
     overflow: hidden;
     background-color: #001029;
-    font-size: 25%;
+    font-size: 0%;
     width: 100%;
   }
   .topnav a {
     float: left;
     color: #f1f1f1;
     text-align: center;
-    padding: 40px 16px;
+    padding: 40px 14px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 18px;
     font-weight: bold;
   }
   .somps {
@@ -174,10 +174,6 @@ span {
   }
   .sendBtn {
     width: 50%;
-  }
-  body {
-    /* margin: 20px;
-    padding: 20px; */
   }
 }
 button {

@@ -10,7 +10,7 @@ function Contact() {
         Contact Me
       </h2>
       <div class="flex flex3">
-        <div class="flex-project">
+        <div class="flex-project2">
           <h2>
             Get In Touch{" "}
             <img
@@ -77,7 +77,7 @@ function Contact() {
           </div>
         </div>
 
-        <div class="flex-project">
+        <div class="flex-project2">
           <p>
             <input
               type="text"
