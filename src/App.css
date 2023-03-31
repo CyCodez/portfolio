@@ -23,7 +23,6 @@ h1 {
   width: 15rem;
   height: 0.25rem;
   background-color: aqua;
-  /* margin-left: auto; */
   margin-left: 650px;
 }
 .underlinep {
@@ -122,7 +121,7 @@ span {
 .flex-project4 {
   margin-top: 10px;
 }
-@media only screen and (max-device-width: 350px) {
+@media only screen and (max-device-width: 380px) {
   .flex {
     display: flex;
     flex-direction: column;
@@ -132,12 +131,15 @@ span {
     color: #001021;
     font-weight: bold;
   }
+  .flex3 {
+    justify-content: space-between;
+  }
   .topnav {
     display: flex;
     flex-direction: row;
-    /* position: fixed; */
+    position: fixed;
     right: 100px;
-    top: 0;
+    top: 0px;
     overflow: hidden;
     background-color: #001029;
     font-size: 0%;
