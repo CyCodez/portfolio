@@ -1,13 +1,29 @@
-body {
+/* body {
   margin: 40;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #001021;
+} */
+body {
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20201104/pngtree-technology-background-binary-computer-code-vector-design-image_458702.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* 0.5 is the alpha value for 50% opacity */
 }
+
 p,
 h4,
 h2,
 div {
   color: #fff;
+}
+.box {
+  text-align: center;
 }
 h1 {
   color: white;
@@ -155,7 +171,7 @@ span {
     font-weight: bold;
   }
   .somps {
-    margin-top: 45%;
+    margin-top: 95%;
   }
   .flex-project {
     margin-left: 100px;
@@ -212,10 +228,17 @@ button:hover {
   height: 20px;
   text-align: center;
 }
+.myIcon {
+  background-color: "green";
+}
 
 .grid-container > div {
   padding: 20%;
   font-size: 20px;
+  text-align: center;
+}
+.text-format {
+  line-height: 2.5rem;
 }
 .item {
   width: 90px;
