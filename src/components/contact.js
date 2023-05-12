@@ -1,16 +1,16 @@
-import twitter from "./icons/twitter-icon.png";
-import linked from "./icons/linkedIn-icon.png";
-import git from "./icons/github-icon.png";
-import instagram from "./icons/instagram-icon.jpg";
-import hello from "./icons/hello-icon.jpg";
+import twitter from "../icons/twitter-icon.png";
+import linked from "../icons/linkedIn-icon.png";
+import git from "../icons/github-icon.png";
+import instagram from "../icons/instagram-icon.jpg";
+import hello from "../icons/hello-icon.jpg";
 function Contact() {
   return (
-    <div>
+    <div className="footerC">
       <h2 id="contact" style={{ textAlign: "center", marginTop: "40px" }}>
         Contact Me
       </h2>
-      <div class="flex flex3">
-        <div class="flex-project2">
+      <div className="flex flex3">
+        <div className="flex-project2">
           <h2>
             Get In Touch{" "}
             <img
@@ -77,7 +77,7 @@ function Contact() {
           </div>
         </div>
 
-        <div class="flex-project2">
+        <div className="flex-project2">
           <p>
             <input
               type="text"

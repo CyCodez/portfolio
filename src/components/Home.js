@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
+import Navbar from "./Navbar";
 
 const TypewriterMultiLine = ({ lines }) => {
   const [lineIndex, setLineIndex] = useState(0);
@@ -50,23 +51,10 @@ const TypewriterMultiLine = ({ lines }) => {
 function Home() {
   return (
     <div id="home">
-      <div className="topnav">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5SQntNi68ASSiKFpRVzQOMfJCx5aYevH69w&usqp=CAU"
-          width="100px"
-          alt="tech"
-          style={{ borderRadius: "50%", margin: "15px" }}
-        />
-        <a href="#contact">Contact</a>
-        <a href="#project">Project</a>
-        <a href="#about">About</a>
-        <a class="active" href="#home">
-          Home
-        </a>
-      </div>
+      <Navbar />
 
-      <div class="flex flex3">
-        <div class="flex-items">
+      <div className="flex flex3">
+        <div className="flex-items">
           <div>
             <TypewriterMultiLine
               lines={[
@@ -86,7 +74,7 @@ function Home() {
           </a>
         </div>
 
-        <div class="flex-items">
+        <div className="flex-items">
           <img
             className="my-image"
             src="https://avatars.githubusercontent.com/u/100401054?v=4"

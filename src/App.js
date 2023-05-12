@@ -1,8 +1,5 @@
 import "./App.css";
-import Project from "./project";
-import About from "./about";
-import Home from "./Home";
-import Contact from "./contact";
+import { Home, About, Contact, Project } from "./components";
 function App() {
   return (
     <div>
