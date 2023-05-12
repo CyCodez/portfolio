@@ -65,9 +65,6 @@ function Home() {
               ]}
             />
           </div>
-
-          {/* <h3 className="name">Uwaoma Cyrus</h3>
-          <h4>I'm a software Engineer</h4> */}
           <h4> I build and design Beautiful user Interfaces</h4>
           <a className="mailButton" href="mailto:uwaomacyruz@gmail.com">
             Send Me An Email

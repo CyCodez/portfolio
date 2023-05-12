@@ -170,7 +170,6 @@ nav {
   box-shadow: var(--light-shadow);
   background-color: #001029;
   font-size: 25%;
-  position: fixed;
   right: 0;
   left: 0;
   top: 0;
@@ -224,6 +223,22 @@ nav {
 .show-container {
   height: 10rem;
 }
+
+.my-image {
+  border-radius: 50%;
+  width: 60%;
+  margin-top: 30px;
+}
+.mailButton {
+  padding: 10px;
+  font-weight: bolder;
+  font-size: small;
+  background-color: #23395d;
+  color: #cf23cf;
+  text-decoration: none;
+  margin-top: 25px;
+}
+
 @media screen and (min-width: 800px) {
   .links a {
     color: var(--clr-white);
@@ -234,6 +249,18 @@ nav {
     display: block;
     padding: 0.5rem 1rem;
     transition: var(--transition);
+  }
+  .mailButton {
+    padding: 5px;
+    font-weight: bolder;
+    font-size: large;
+    background-color: #23395d;
+    color: #cf23cf;
+    text-decoration: none;
+  }
+  .my-image {
+    border-radius: 50%;
+    width: 90%;
   }
   .links a:hover {
     background: var(--clr-primary-8);
@@ -360,14 +387,7 @@ span {
 .somps {
   margin-top: 25%;
 }
-.mailButton {
-  padding: 15px;
-  font-weight: bolder;
-  font-size: large;
-  background-color: #23395d;
-  color: #cf23cf;
-  text-decoration: none;
-}
+
 .mailButton:hover {
   background-color: #001029;
   color: #cf23cf;
@@ -442,6 +462,7 @@ span {
     color: #001021;
     font-weight: bold;
   }
+
   .flex3 {
     justify-content: space-between;
   }
@@ -486,7 +507,7 @@ span {
     font-weight: bold;
   }
   .sendBtn {
-    width: 50%;
+    width: 20%;
   }
 }
 button {
@@ -503,10 +524,6 @@ button:hover {
   transform: translateY(-3px);
 }
 
-.my-image {
-  border-radius: 50%;
-  width: 90%;
-}
 .grid-container {
   display: grid;
   grid-template: 1px / 5px 5px 5px 5px 5px;
