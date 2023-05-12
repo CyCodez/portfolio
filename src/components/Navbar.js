@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="nav-header">
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5SQntNi68ASSiKFpRVzQOMfJCx5aYevH69w&usqp=CAU"
-            className="logo"
+            className="logo bounce"
             alt="logo"
             width="100px"
           />

@@ -294,6 +294,22 @@ body {
   ); /* 0.5 is the alpha value for 50% opacity */
 }
 
+.bounce {
+  animation-name: bounce-animation;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes bounce-animation {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, -10px, 0);
+  }
+}
+
 p,
 h4,
 h2,
