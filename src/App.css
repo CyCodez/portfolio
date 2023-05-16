@@ -238,6 +238,9 @@ nav {
   text-decoration: none;
   margin-top: 25px;
 }
+textarea {
+  width: 100%;
+}
 
 @media screen and (min-width: 800px) {
   .links a {
