@@ -60,7 +60,7 @@ Global Styles
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  background: var(--clr-grey-10);
+  background: black;
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -95,6 +95,65 @@ h4 {
 p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-5);
+}
+
+@media only screen and (max-width: 480px) {
+  .flex {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 130px;
+    color: #001021;
+    font-weight: bold;
+  }
+
+  .flex3 {
+    justify-content: space-between;
+  }
+  .topnav {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    right: 100px;
+    top: 0px;
+    overflow: hidden;
+    background-color: #001029;
+    font-size: 0%;
+    width: 100%;
+  }
+  .topnav a {
+    float: left;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 40px 14px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .somps {
+    margin-top: 95%;
+  }
+  .flex-project {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: -15px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1;
+  }
+  .socialM {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 130px;
+    color: #001021;
+    font-weight: bold;
+  }
+  .sendBtn {
+    width: 20%;
+  }
 }
 
 @media screen and (min-width: 800px) {
@@ -311,18 +370,13 @@ textarea {
   }
 }
 
-body {
+/* body {
   background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20201104/pngtree-technology-background-binary-computer-code-vector-design-image_458702.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.5
-  ); /* 0.5 is the alpha value for 50% opacity */
-}
+  background-color: rgba(0, 0, 0, 0.5);
+} */
 
 .bounce {
   animation-name: bounce-animation;
@@ -455,64 +509,6 @@ span {
 .flex-project4 {
   margin-top: 10px;
 }
-@media only screen and (max-device-width: 380px) {
-  .flex {
-    display: flex;
-    flex-direction: column;
-    font-size: 15px;
-    text-align: left;
-    margin-top: 130px;
-    color: #001021;
-    font-weight: bold;
-  }
-
-  .flex3 {
-    justify-content: space-between;
-  }
-  .topnav {
-    display: flex;
-    flex-direction: row;
-    position: fixed;
-    right: 100px;
-    top: 0px;
-    overflow: hidden;
-    background-color: #001029;
-    font-size: 0%;
-    width: 100%;
-  }
-  .topnav a {
-    float: left;
-    color: #f1f1f1;
-    text-align: center;
-    padding: 40px 14px;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-  }
-  .somps {
-    margin-top: 95%;
-  }
-  .flex-project {
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: -15px;
-    text-align: left;
-    font-size: 18px;
-    line-height: 1;
-  }
-  .socialM {
-    display: flex;
-    flex-direction: row;
-    font-size: 15px;
-    text-align: center;
-    margin-top: 130px;
-    color: #001021;
-    font-weight: bold;
-  }
-  .sendBtn {
-    width: 20%;
-  }
-}
 button {
   padding: 10px;
   margin: 22px;
@@ -527,24 +523,11 @@ button:hover {
   transform: translateY(-3px);
 }
 
-.grid-container {
-  display: grid;
-  grid-template: 1px / 5px 5px 5px 5px 5px;
-  grid-gap: 110px;
-  padding: 1px;
-  height: 20px;
-  text-align: center;
-}
 .myIcon {
   background-color: "green";
 }
 .footerC {
   background-color: #001029;
-}
-.grid-container > div {
-  padding: 20%;
-  font-size: 20px;
-  text-align: center;
 }
 .text-format {
   line-height: 2.5rem;
