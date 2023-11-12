@@ -4,9 +4,11 @@ function App() {
   return (
     <div>
       <Home />
-      <About />
-      <Project />
-      <Contact />
+      <div classname="main-container">
+        <About />
+        <Project />
+        <Contact />
+      </div>
     </div>
   );
 }

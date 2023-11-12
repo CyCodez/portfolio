@@ -34,13 +34,14 @@ function About() {
           work for. I have a keen Interest in developing efficient and reliable
           solutions while meeting user expectation and satisfaction{" "}
         </p>
-        <h2 style={{ marginLeft: "25px", marginBottom: "25px" }}>
-          Here are few technologies I use
-        </h2>
+        <h2>Here are few technologies I use</h2>
         <div
+          className="tech"
           style={{
             display: "flex",
             justifyContent: "space-around",
+            flexWrap: "wrap",
+            flex: "400px",
           }}
         >
           <IconText
@@ -95,7 +96,19 @@ function About() {
             }
             text="Typescript"
           />
-          <IconText icon={<FaVuejs size={32} />} text="Vue" />
+          <IconText
+            icon={
+              <FaVuejs
+                size={32}
+                style={{
+                  color: "red",
+                  backgroundColor: "white",
+                  margin: "10px",
+                }}
+              />
+            }
+            text="Vue"
+          />
         </div>
       </div>
     </div>

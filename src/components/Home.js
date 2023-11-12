@@ -55,17 +55,21 @@ function Home() {
 
       <div className="flex flex3">
         <div className="flex-items">
-          <div>
-            <TypewriterMultiLine
+          <div className="name">
+            {/* <TypewriterMultiLine
               lines={[
                 {
                   text: "Hey there, I am",
                 },
                 { text: "Uwaoma Cyrus   " },
               ]}
-            />
+            /> */}
+            Hey there, I am Cyrus
           </div>
-          <h4> I build and design Beautiful user Interfaces</h4>
+          <h4 className="interface">
+            {" "}
+            I build and design Beautiful user Interfaces
+          </h4>
           <a className="mailButton" href="mailto:uwaomacyruz@gmail.com">
             Send Me An Email
           </a>

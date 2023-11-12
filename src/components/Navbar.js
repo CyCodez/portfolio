@@ -32,7 +32,7 @@ const Navbar = () => {
           </button>
         </div>
         <div className="links-container" ref={linksContainerRef}>
-          <ul className="links" ref={linksRef}>
+          <ul className="links name" ref={linksRef}>
             {links.map((link) => {
               const { id, url, text } = link;
               return (
